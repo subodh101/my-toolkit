@@ -1,0 +1,11 @@
+apiVersion: kpt.dev/v1alpha1
+kind: Kptfile
+metadata:
+    name: cockroachdb
+upstream:
+    type: git
+    git:
+        commit: 77d37b4b8bf0acc82f3113c851e74e4c62c348f1
+        repo: https://github.com/kubernetes/examples
+        directory: staging/cockroachdb
+        ref: master
