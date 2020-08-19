@@ -2,6 +2,8 @@
 
 ## For building declarative manifest
 
+**Note**: This helps in maintaining yaml less prone to human errors.
+
 ### Consumer Workflow:
 
 1. Upstearm Remote

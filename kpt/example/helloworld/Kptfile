@@ -31,7 +31,7 @@ openAPI:
       x-k8s-cli:
         setter:
           name: replicas
-          value: "3"
+          value: "4"
     io.k8s.cli.substitutions.image:
       x-k8s-cli:
         substitution:
